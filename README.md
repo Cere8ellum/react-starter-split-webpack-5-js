@@ -1,0 +1,1 @@
+# react-starter-split-webpack-5-js
