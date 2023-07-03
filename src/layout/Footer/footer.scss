@@ -1,0 +1,9 @@
+@use "sass:map";
+@import "../../assets/styles/variables.scss";
+
+footer {
+  min-height: 150px;
+  background-color: map.get($colors, dark-grey);
+  color: map.get($colors, white);
+  flex: 0 0 auto;
+}

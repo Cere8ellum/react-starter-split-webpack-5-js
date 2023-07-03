@@ -1,0 +1,7 @@
+@use "sass:map";
+@import "../../assets/styles/variables.scss";
+
+h1 {
+    margin-top: 50px;
+    @include fluidFontSize(148px, 208px, 480px, 1280px, 18px);
+}
